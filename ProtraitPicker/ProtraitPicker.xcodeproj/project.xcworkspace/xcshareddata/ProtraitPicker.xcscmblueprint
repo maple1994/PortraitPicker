@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "71BF71271D26D8664C7C142A13C39B33CC0E2E57",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "71BF71271D26D8664C7C142A13C39B33CC0E2E57" : 0,
+    "A9D5C2A60D34BAEEF726B5CA9F054D4FB57F2C2B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0D5CF62F-8D5F-4B12-B1DD-4F0DACD8CC32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "71BF71271D26D8664C7C142A13C39B33CC0E2E57" : "PortraitPicker\/",
+    "A9D5C2A60D34BAEEF726B5CA9F054D4FB57F2C2B" : "..\/Documents\/xcodeSpace\/testDemo\/testDemo"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ProtraitPicker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ProtraitPicker\/ProtraitPicker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maple1994\/PortraitPicker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71BF71271D26D8664C7C142A13C39B33CC0E2E57"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maple1994\/testDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9D5C2A60D34BAEEF726B5CA9F054D4FB57F2C2B"
+    }
+  ]
+}
