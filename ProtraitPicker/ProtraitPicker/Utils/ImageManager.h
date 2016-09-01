@@ -21,4 +21,5 @@
 ///获得原始图片
 - (UIImage *)getOriginalImageWithAsset:(PHAsset *)asset;
 
+
 @end

@@ -26,17 +26,21 @@
 static NSString *ID = @"album";
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupNavgationBar];
     //注册cell
     [self.tableView registerClass:[AlbumPickerCell class] forCellReuseIdentifier:ID];
     self.tableView.rowHeight = 70;
-    
-    //加载相册模型数组
-//    [[ImageManager sharedManager] getAllAlbumCompletion:^(NSArray<AlbumModel *> *albumModelArray) {
-//        self.alubmArray = albumModelArray;
-//        [self.tableView reloadData];
-//    }];
+
     self.alubmArray = [ImageManager sharedManager].albumModelArray;
     self.title = @"相册";
+}
+
+- (void)setupNavgationBar {
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain target:self action:@selector(cancle)];
+}
+
+- (void)cancle {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
